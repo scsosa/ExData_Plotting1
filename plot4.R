@@ -31,11 +31,11 @@ if (all(workfile$Sub_metering_1 != "?") == FALSE){
   print("Missing Values Found - Eliminating Missing Data from Plot")
   workfile <- subset(workfile, Sub_metering_1 != "?")
 }
-if (all(workfile$Sub_metering_1 != "?") == FALSE){
+if (all(workfile$Sub_metering_2 != "?") == FALSE){
   print("Missing Values Found - Eliminating Missing Data from Plot")
   workfile <- subset(workfile, Sub_metering_2 != "?")
 }
-if (all(workfile$Sub_metering_1 != "?") == FALSE){
+if (all(workfile$Sub_metering_3 != "?") == FALSE){
   print("Missing Values Found - Eliminating Missing Data from Plot")
   workfile <- subset(workfile, Sub_metering_3 != "?")
 }
